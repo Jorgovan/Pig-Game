@@ -102,7 +102,7 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
             dice1DOM.style.display='block';
             dice1DOM.src = 'dice-' + dice1 + '.png';
             dice2DOM.style.display='block';
-            dice2DOM.src = 'dice-' + dice1 + '.png';
+            dice2DOM.src = 'dice-' + dice2 + '.png';
             
             if (dice1===1 || dice2 === 1) {
                 scores[activePlayer]=0;
